@@ -1,0 +1,95 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e3f2fd;
+  color: #333;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #2196f3;
+  border-radius: 5px;
+  outline: none;
+  width: 60%;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #1976d2;
+}
+
+.weather-card,
+.forecast-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* WeatherCard Styles */
+.weather-card h2 {
+  margin: 0;
+  color: #1976d2;
+}
+
+.weather-card p {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+/* ForecastCard Styles */
+.forecast-card h3 {
+  margin-bottom: 15px;
+  color: #1976d2;
+}
+
+.forecast-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.forecast-item {
+  background-color: #bbdefb;
+  border-radius: 8px;
+  padding: 10px;
+  width: 120px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item p {
+  margin: 5px 0;
+  font-size: 14px;
+}
